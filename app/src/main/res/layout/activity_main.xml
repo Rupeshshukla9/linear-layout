@@ -11,18 +11,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="50sp"
+        android:paddingHorizontal="50sp"
+        android:textColor="#00BCD4"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="enter your name">
+        android:textSize="20sp"
+        android:text="enter your name"/>
 
+    <EditText
+        android:layout_width="421dp"
+        android:layout_height="62dp"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:hint="enter your name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter your roll.no"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="enter your roll.no"
+            android:textSize="20sp" />
 
-    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter your hight"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="enter your hight"
+        android:textSize="20sp"/>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="validation"
+        android:inputType="text"
+        android:textSize="20sp"
+"/>
 
 </LinearLayout>
