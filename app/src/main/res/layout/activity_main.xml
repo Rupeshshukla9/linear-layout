@@ -19,42 +19,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:text="enter your name"/>
+        android:text="Enter Your Name"/>
 
     <EditText
         android:layout_width="421dp"
         android:layout_height="62dp"
         android:inputType="text"
         android:textSize="20sp"
-        android:hint="enter your name"/>
+        android:id="@+id/etName"
+        android:hint="e Enter Your Name"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="enter your roll.no"/>
+        android:text="Enter Your Rollno"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
-            android:hint="enter your roll.no"
+            android:hint="Enter Your Rollno"
             android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="enter your hight"/>
+        android:text="Enter Your Height"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:hint="enter your hight"
+        android:hint="Enter Your Height"
         android:textSize="20sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="validation"
+        android:text="Validation"
         android:inputType="text"
-        android:textSize="20sp"
-"/>
+        android:textSize="20sp"/>
 
 </LinearLayout>
